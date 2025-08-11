@@ -72,6 +72,8 @@ float area, pib;
         printf("Informe a quantidade de pontos turísticos existentes nesta cidade: \n");
         scanf("%i", &turismo);
 
+        printf("Novo Commit\n");
+
 
               
       return 0;
