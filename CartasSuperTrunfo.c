@@ -19,6 +19,7 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     printf("Desafio Super Trunfo - Nível 1\n");
+    printf("Novo commit\n");
 
 
     return 0;
