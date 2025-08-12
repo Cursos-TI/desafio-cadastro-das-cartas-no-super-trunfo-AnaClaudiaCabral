@@ -86,7 +86,7 @@ float area2, pib2;   // dados carta 2
         printf("PIB: R$ %2.f\n", pib2);
         printf("Pontos Turisticos: %i\n",turismo2);
 
-        
+        printf("Novo Commit\n");
                       
       return 0;
 
