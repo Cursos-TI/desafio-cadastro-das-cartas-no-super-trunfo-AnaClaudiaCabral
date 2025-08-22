@@ -100,6 +100,7 @@ float area2, pib2, densidadepopulacional2, pibpercapita2;   // dados carta 2
         printf("PIB per Capita: %.2f reais \n", pibpercapita2);
 
         printf("Novo Commit\n");
+        printf("novo commit \n");
                       
       return 0;
 
