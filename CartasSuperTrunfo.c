@@ -128,7 +128,7 @@ int superpoder, resultadopopulacao, resultadoarea, resultadopib, resultadoturism
       printf(" *** SUPER PODER ***\n");
       printf(" Carta 01 venceu? (%d)\n", superpoder);
 
-      printf("Novo commit \n");  
+      printf("Novo commit\n");  
 
                              
       return 0;
