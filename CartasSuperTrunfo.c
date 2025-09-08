@@ -28,10 +28,10 @@ int superpoder, resultadopopulacao, resultadoarea, resultadopib, resultadoturism
         scanf(" %c", &estado1);
 
         printf("Informe a letra escolhida do Estado seguida de um número de 01 a 04: \n");
-        scanf(" %s", &codigo1);
+        scanf(" %s", &codigo1[30]);
 
         printf("Informe o nome de uma cidade do Estado informado anteriormente: \n");
-        scanf(" %s", &cidade1);
+        scanf(" %s", &cidade1[50]);
 
         printf("Informe o número de habitantes desta Cidade: \n");
         scanf(" %d", &populacao1);
@@ -70,10 +70,10 @@ int superpoder, resultadopopulacao, resultadoarea, resultadopib, resultadoturism
         scanf(" %c", &estado2);
 
         printf("Informe a letra escolhida do Estado seguida de um número de 01 a 04: \n");
-        scanf(" %s", &codigo2);
+        scanf(" %s", &codigo2[30]);
 
         printf("Informe o nome de uma cidade do Estado informado anteriormente: \n");
-        scanf(" %s", &cidade2);
+        scanf(" %s", &cidade2[50]);
 
         printf("Informe o número de habitantes desta Cidade: \n");
         scanf(" %d", &populacao2);
@@ -125,7 +125,7 @@ int superpoder, resultadopopulacao, resultadoarea, resultadopib, resultadoturism
       printf("PIB Per Capita de Carta 1 é maior que Carta 2? (%d)\n",resultadopibpercapita = pibpercapita1 > pibpercapita2);
 
       // Exibição Super Poder
-      printF(" *** SUPER PODER ***\n");
+      printf(" *** SUPER PODER ***\n");
       printf(" Carta 01 venceu? (%d)\n", superpoder);
 
       printf("Novo commit \n");  
